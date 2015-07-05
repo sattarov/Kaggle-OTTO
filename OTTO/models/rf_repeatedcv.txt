@@ -1,0 +1,64 @@
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Class_1 Class_2 Class_3 Class_4 Class_5 Class_6 Class_7 Class_8
+   Class_1     366       0       0       0       0       0       0       0
+   Class_2       0    3026       0       0       0       0       0       0
+   Class_3       0       0    1488       0       0       0       0       0
+   Class_4       0       0       0     507       0       0       0       0
+   Class_5       0       0       0       0     527       0       0       0
+   Class_6       0       0       0       0       0    2663       0       0
+   Class_7       0       0       0       0       0       0     530       0
+   Class_8       0       0       0       0       0       0       0    1590
+   Class_9       0       0       0       0       0       0       0       0
+          Reference
+Prediction Class_9
+   Class_1       0
+   Class_2       0
+   Class_3       0
+   Class_4       0
+   Class_5       0
+   Class_6       0
+   Class_7       0
+   Class_8       0
+   Class_9     892
+
+Overall Statistics
+                                     
+               Accuracy : 1          
+                 95% CI : (0.9997, 1)
+    No Information Rate : 0.2611     
+    P-Value [Acc > NIR] : < 2.2e-16  
+                                     
+                  Kappa : 1          
+ Mcnemar's Test P-Value : NA         
+
+Statistics by Class:
+
+                     Class: Class_1 Class: Class_2 Class: Class_3 Class: Class_4
+Sensitivity                 1.00000         1.0000         1.0000        1.00000
+Specificity                 1.00000         1.0000         1.0000        1.00000
+Pos Pred Value              1.00000         1.0000         1.0000        1.00000
+Neg Pred Value              1.00000         1.0000         1.0000        1.00000
+Prevalence                  0.03158         0.2611         0.1284        0.04375
+Detection Rate              0.03158         0.2611         0.1284        0.04375
+Detection Prevalence        0.03158         0.2611         0.1284        0.04375
+Balanced Accuracy           1.00000         1.0000         1.0000        1.00000
+                     Class: Class_5 Class: Class_6 Class: Class_7 Class: Class_8
+Sensitivity                 1.00000         1.0000        1.00000         1.0000
+Specificity                 1.00000         1.0000        1.00000         1.0000
+Pos Pred Value              1.00000         1.0000        1.00000         1.0000
+Neg Pred Value              1.00000         1.0000        1.00000         1.0000
+Prevalence                  0.04547         0.2298        0.04573         0.1372
+Detection Rate              0.04547         0.2298        0.04573         0.1372
+Detection Prevalence        0.04547         0.2298        0.04573         0.1372
+Balanced Accuracy           1.00000         1.0000        1.00000         1.0000
+                     Class: Class_9
+Sensitivity                 1.00000
+Specificity                 1.00000
+Pos Pred Value              1.00000
+Neg Pred Value              1.00000
+Prevalence                  0.07697
+Detection Rate              0.07697
+Detection Prevalence        0.07697
+Balanced Accuracy           1.00000
